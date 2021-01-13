@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FruitMaster/Scenes/Free Fruits.unity
     guid: dfaaabda3c9cb0741bb6bff19b6cf26c
+  - enabled: 1
+    path: Assets/FruitMaster/Scenes/Spin.unity
+    guid: cdfad26ace4673e4485200824abfa59e
   m_configObjects: {}

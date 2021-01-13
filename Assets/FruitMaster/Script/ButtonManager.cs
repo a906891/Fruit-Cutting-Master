@@ -86,10 +86,10 @@ public class ButtonManager : MonoBehaviour {
         }
         else
         {
-            if (PlayerPrefs.GetInt("Coins") >= 20)
+            if (PlayerPrefs.GetInt("Coins") >= 200)
             {
                 transform.parent.GetComponent<AudioSource>().Play();
-                PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") - 20);
+                PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") - 200);
                 FindObjectOfType<CoinScript>().cointest();
                 transform.parent.parent.GetChild(3).gameObject.SetActive(true);
                 transform.parent.parent.GetChild(3).position = Input.mousePosition;

@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Awake () {
         //when game starts the player should be at the first level
-        PlayerPrefs.SetInt("first", 0);
+        
 
         if (PlayerPrefs.GetInt("first") == 0)
         {
@@ -73,10 +73,11 @@ public class GameManager : MonoBehaviour {
     public void FreeFruits()
     {
         
-        if (PlayerPrefs.GetInt("LevCount") == 2 )
+        if (PlayerPrefs.GetInt("LevCount") > 0 && PlayerPrefs.GetInt("LevCount")%2 == 0)
         {
+            int currentLevel = PlayerPrefs.GetInt("LevCount");
             FreeFruitsNeverLoaded = false;
-            PlayerPrefs.SetInt("LevCount", 3);
+            PlayerPrefs.SetInt("LevCount", currentLevel+1);
             SceneManager.LoadScene("Free Fruits");
            
 

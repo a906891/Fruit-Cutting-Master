@@ -76,6 +76,11 @@
     <Compile Include="Assets\FruitMaster\Script\CoinScript.cs" />
     <Compile Include="Assets\FruitMaster\Script\ExecuteInEdit.cs" />
     <Compile Include="Assets\FruitMaster\Script\Free Fruit\FreeFruit.cs" />
+    <Compile Include="Assets\FruitMaster\Script\Free Fruit\FruitJump.cs" />
+    <Compile Include="Assets\FruitMaster\Script\Free Fruit\SpinToWin.cs" />
+    <Compile Include="Assets\FruitMaster\Script\Free Fruit\WheelSpinning.cs" />
+    <Compile Include="Assets\FruitMaster\Script\Free Fruit\newFruitBlast.cs" />
+    <Compile Include="Assets\FruitMaster\Script\Free Fruit\newknife.cs" />
     <Compile Include="Assets\FruitMaster\Script\FruitBlastScript.cs" />
     <Compile Include="Assets\FruitMaster\Script\FruitCutted.cs" />
     <Compile Include="Assets\FruitMaster\Script\FruitGenerator.cs" />

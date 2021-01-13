@@ -7,8 +7,10 @@ ScriptsOnlyBuild:
     - CoinScript
     - EZCameraShake.CameraShaker
     - ExecuteInEdit
+    - FreeFruit
     - FruitBlastScript
     - FruitCutted
+    - FruitJump
     - GameManager
     - KnifeScript
     - KnifeSel
@@ -16,9 +18,12 @@ ScriptsOnlyBuild:
     - MixerScript
     - RandomDrinkSprite
     - RandomRotation
+    - SpinToWin
     - TrignometricMovement
     - TrignometricRotation
     - TrignometricScale
+    - WheelSpinning
+    - newFruitBlast
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.SceneViewGridManager
@@ -42,9 +47,128 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
+    Assets/FruitMaster/Scenes/Free Fruits.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11366}
+    - Class: 114
+      Script: {instanceID: 11368}
+    - Class: 114
+      Script: {instanceID: 11390}
+    - Class: 114
+      Script: {instanceID: 11400}
+    - Class: 114
+      Script: {instanceID: 11534}
+    - Class: 114
+      Script: {instanceID: 11604}
+    - Class: 114
+      Script: {instanceID: 11672}
+    - Class: 114
+      Script: {instanceID: 11702}
+    - Class: 114
+      Script: {instanceID: 11720}
+    - Class: 114
+      Script: {instanceID: 11790}
+    - Class: 114
+      Script: {instanceID: 12162}
+    - Class: 114
+      Script: {instanceID: 12198}
+    - Class: 114
+      Script: {instanceID: 12304}
+    - Class: 114
+      Script: {instanceID: 12394}
+    - Class: 114
+      Script: {instanceID: 12474}
+    - Class: 114
+      Script: {instanceID: 12478}
+    - Class: 114
+      Script: {instanceID: 12822}
+    - Class: 114
+      Script: {instanceID: 12972}
+    - Class: 114
+      Script: {instanceID: 13054}
+    - Class: 114
+      Script: {instanceID: 13180}
+    - Class: 114
+      Script: {instanceID: 13264}
+    - Class: 114
+      Script: {instanceID: 13454}
+    - Class: 114
+      Script: {instanceID: 13504}
+    - Class: 114
+      Script: {instanceID: 13700}
+    - Class: 114
+      Script: {instanceID: 13722}
+    - Class: 114
+      Script: {instanceID: 13856}
+    - Class: 114
+      Script: {instanceID: 13978}
+    - Class: 114
+      Script: {instanceID: 14124}
+    - Class: 114
+      Script: {instanceID: 14230}
+    - Class: 114
+      Script: {instanceID: 14272}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 250
+      Script: {instanceID: 0}
     Assets/FruitMaster/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -83,65 +207,67 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11364}
-    - Class: 114
       Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11388}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11398}
+      Script: {instanceID: 11390}
     - Class: 114
-      Script: {instanceID: 11532}
+      Script: {instanceID: 11400}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11716}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 12124}
+      Script: {instanceID: 11790}
     - Class: 114
-      Script: {instanceID: 12158}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12194}
+      Script: {instanceID: 12162}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12390}
+      Script: {instanceID: 12304}
     - Class: 114
-      Script: {instanceID: 12470}
+      Script: {instanceID: 12394}
     - Class: 114
       Script: {instanceID: 12474}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 12478}
     - Class: 114
-      Script: {instanceID: 13044}
+      Script: {instanceID: 12808}
     - Class: 114
-      Script: {instanceID: 13170}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 13180}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 13264}
     - Class: 114
-      Script: {instanceID: 13442}
+      Script: {instanceID: 13306}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13400}
     - Class: 114
-      Script: {instanceID: 13688}
+      Script: {instanceID: 13454}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13504}
     - Class: 114
-      Script: {instanceID: 13844}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 14110}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 13856}
     - Class: 114
-      Script: {instanceID: 14258}
+      Script: {instanceID: 14124}
+    - Class: 114
+      Script: {instanceID: 14230}
+    - Class: 114
+      Script: {instanceID: 14272}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,6 +293,55 @@ ScriptsOnlyBuild:
     - Class: 233
       Script: {instanceID: 0}
     - Class: 250
+      Script: {instanceID: 0}
+    Assets/FruitMaster/Scenes/Spin.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11366}
+    - Class: 114
+      Script: {instanceID: 11368}
+    - Class: 114
+      Script: {instanceID: 11390}
+    - Class: 114
+      Script: {instanceID: 12304}
+    - Class: 114
+      Script: {instanceID: 12676}
+    - Class: 114
+      Script: {instanceID: 14230}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -295,6 +470,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.Advertisements.dll
     namespaceName: UnityEngine.Advertisements
     className: Placeholder
+  - hash:
+      serializedVersion: 2
+      Hash: 256dcfbc517d078675ee5b742acb13eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeFruit
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -513,7 +694,7 @@ ScriptsOnlyBuild:
     className: NetworkLobbyManager
   - hash:
       serializedVersion: 2
-      Hash: d1e9f9743e9df97b9c62a9b8fbb8fcd7
+      Hash: 1cc754b2c300fcc79ba75b8a26a19e78
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -535,6 +716,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: aff6c2192f12e36dc36be122b388d3b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WheelSpinning
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -571,6 +758,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShakeOnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a7ebf176906434d37a7dc9af3d15d814
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpinToWin
+  - hash:
+      serializedVersion: 2
+      Hash: e6c81dbc3862df59b6fff7383e4c0feb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FruitJump
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -661,6 +860,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f3367636c8e17dccadbc72e8687f00f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: newknife
   - hash:
       serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
@@ -813,6 +1018,12 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
+      Hash: 7dbc140b7a18f031b201e3dbe5a97c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: newFruitBlast
+  - hash:
+      serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -928,4 +1139,7 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/FruitMaster/Scenes/SampleScene.unity
-  playerPath: C:/Users/a9068/Desktop/fruit cut.apk
+  - Assets/FruitMaster/Scenes/Free Fruits.unity
+  - Assets/FruitMaster/Scenes/Spin.unity
+  playerPath: D:/ANDROID/MY APPS/SOURCE CODE/GAMES/GAMES/codecanyon-AFxPJYrf-knife-cut-the-fruits-admob/Fruit
+    Cutting Master/fruit cut 3.apk
